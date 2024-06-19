@@ -30,7 +30,7 @@ body{
  }
  .logo{
     width: 140px;
-
+    padding: 10px;
  }
 
  nav ul li{
