@@ -13,11 +13,11 @@ body{
  }
  #header{
     width: 100%;
-    min-height: 100vh;
-    background-image: url(../assets/background1.jpg);
-    background-size: cover;
+    height: 100vh;
+    background-image: url(../assets/background1.png);
+    background-size: auto;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 800px;
  }
  .container{
     padding: 10px 10%
@@ -27,12 +27,9 @@ body{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #252D2D;
-    border-radius: 10px;
  }
  .logo{
     width: 140px;
-    padding: 10px;
 
  }
 
