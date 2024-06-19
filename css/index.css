@@ -27,11 +27,15 @@ body{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-
+    background-color: #252D2D;
+    border-radius: 10px;
  }
  .logo{
     width: 140px;
+    padding: 10px;
+
  }
+
 
  nav ul li{
     display: inline-block;
