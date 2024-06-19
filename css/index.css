@@ -27,8 +27,8 @@ body{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    border: 1px solid #000;
     background-color: #24282B;
+    border-radius: 10px;
  }
  .logo{
     width: 140px;
