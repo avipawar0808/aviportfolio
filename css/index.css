@@ -29,7 +29,6 @@ body{
     flex-wrap: wrap;
     background-color: #24282B;
     border-radius: 10px;
-    position: fixed;
  }
  .logo{
     width: 140px;
