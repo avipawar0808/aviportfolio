@@ -27,6 +27,7 @@ body{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    border-radius: 1px solid black;
     background-color: #252D2D;
     border-radius: 10px;
  }
