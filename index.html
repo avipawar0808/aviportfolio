@@ -257,13 +257,24 @@
     </script> -->
 
     <!-- for email -->
-    <!-- <script>
+    <script>
         const form = document.querySelector('form');
         form.addEventListener('submit', (e) => {
           e.preventDefault();
-          form.reset();
+          // Assuming your form submission is handled by the API
+          fetch('https://web3forms.com/success', {
+            method: 'POST',
+            body: new FormData(form)
+          })
+          .then((response) => response.json())
+          .then((data) => {
+            // Reset form fields after successful submission
+            form.reset();
+          })
+          .catch((error) => console.error('Error:', error));
         });
-      </script> -->
+      </script>
+      
       
 </body>
 
